@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+    <html>
+      <head>
+        <style>
+          table, th, td {
+            border: 1px solid black;
+          }
+
+          .font-weight-lighter {
+            font-size: 30px;
+            color: grey;
+          }
+
+          #me {
+            border-radius: 50%;
+          }
+
+          .footer {
+            display: block;
+            background-color: lightgrey;
+            align-items: center;
+          }
+        </style>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+        <title>About Me</title>
+      </head>
+      <body>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="mypage_bootstrap.html">Home</a>
+            </li>
+            <li class = "nav-item">
+              <a class = "nav-link" href = "projects.html">Project</a>
+            </li>
+          </ul>
+          <div class="navbar-nav ml-auto">
+            <a class="navbar-brand" href="https://github.com/SirJishesALot">
+              <img src="resources/github_logo.png" alt="GitHub" style="width:40px;">
+            </a>
+          </div>
+        </nav>
+        <div class = "container">
+          <div class = "row">
+            <h1>Raychaudhuri, Jishnu - <a class = "font-weight-lighter">Software Development Methods and Tools</a></h1>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              Interesting facts about me: <br>
+              <ol>
+                  <li>I have a red belt in Taekwondo.</li>
+                  <li>I have read each of the Harry Potter books at least seven times.</li>
+                  <li>I cut my right eyeball when I was about 10 years old and have had to wear glasses ever since.</li>
+              </ol>
+              I am studying Computer Science because I like the problem solving aspect of it very much. I also like creating things, and every solution you create is in some way unique to you. 
+            </div>
+          </div> <br>
+
+          <img src = "resources/pic_of_me.jpeg" alt = "Picture of me." id="me"> <br> <br>
+          <div class = "row">
+            <h3 class = "col-10">My Interests</h3>
+            <form action = "form.html">
+              <input type="submit" value = "Add Interest" class="btn btn-primary"> <br>
+            </form>
+          </div>
+
+          <div class = "card-group">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="resources/madvillian.png" alt="Madvilliany by Madvillian" height="350">
+              <div class="card-body">
+                <h5 class="card-title">Listening to Music</h5>
+                <p class="card-text">I like listening to music because it helps me focus. I also like to explore obscure artists and bands. The weirder the music, the better!</p>
+                <p>Pictured: <a href = "https://en.wikipedia.org/wiki/Madvillainy">Madvilliany by Madvilian</a></p>
+              </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="resources/stalker.jpg" alt="Stalker by Andrei Tarkovsky" height="350">
+              <div class="card-body">
+                <h5 class="card-title">Watching Movies</h5>
+                <p class="card-text">I like watching movies as it helps pass the time. Some of my favourite movies are Kung Fu Hustle, Synecdoche New York, and Stalker.</p>
+                <p>Pictured: <a href = "https://en.wikipedia.org/wiki/Stalker_(1979_film)">Stalker by Andrei Tarkovsky</a></p>
+              </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="resources/botw.webp" alt="Legend of Zelda Breath of the Wild" height="350">
+              <div class="card-body">
+                <h5 class="card-title">Playing video games</h5>
+                <p class="card-text">This is something I do for fun. Although I primarily enjoy playing single player games, the right multiplayer games with the right people can be the best.</p>
+                <p>Pictured: <a href = "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild">Legend of Zelda: Breath of the Wild</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class = "footer d-flex justify-content-center">
+            <a href = "https://www.linkedin.com/in/jishnu-r-111a76a4/">
+              <img src = "resources/linkedin_logo.png" alt = "LinkedIn" height = "50">
+            </a>
+          </div>
+        </div>
+      </body>
+    </html>
